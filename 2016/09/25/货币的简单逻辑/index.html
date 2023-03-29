@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"hechushi.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="为什么以前要用铜板白银黄金才能买的东西，现在印刷一张张花花绿绿的纸就可以？实际运行中会有什么不同？ 历史上，金银铜铁充当货币的前提条件是当时生产力低下，金银铜铁本身产量不大，具有一定的稀缺性，属于贵金属。而与此同时，生产力低下也导致实物数量的增长同样缓慢。这样贵金属和实物在数量上能够保持一种脆弱的平衡关系，金银铜铁就可以充当一般等价物，一般等价物这个概念本身也表明了彼此间的数量比例的意思。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="货币的简单逻辑">
+<meta property="og:url" content="http://hechushi.com/2016/09/25/%E8%B4%A7%E5%B8%81%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91/index.html">
+<meta property="og:site_name" content="一片青山">
+<meta property="og:description" content="为什么以前要用铜板白银黄金才能买的东西，现在印刷一张张花花绿绿的纸就可以？实际运行中会有什么不同？ 历史上，金银铜铁充当货币的前提条件是当时生产力低下，金银铜铁本身产量不大，具有一定的稀缺性，属于贵金属。而与此同时，生产力低下也导致实物数量的增长同样缓慢。这样贵金属和实物在数量上能够保持一种脆弱的平衡关系，金银铜铁就可以充当一般等价物，一般等价物这个概念本身也表明了彼此间的数量比例的意思。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2016-09-25T14:52:11.000Z">
+<meta property="article:modified_time" content="2023-03-29T09:31:14.174Z">
+<meta property="article:author" content="何处是">
+<meta property="article:tag" content="货币">
+<meta property="article:tag" content="信用，逻辑">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://hechushi.com/2016/09/25/%E8%B4%A7%E5%B8%81%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>货币的简单逻辑 | 一片青山</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="一片青山" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">一片青山</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://hechushi.com/2016/09/25/%E8%B4%A7%E5%B8%81%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="何处是">
+      <meta itemprop="description" content="《金刚经》云：一切有为法，如梦幻泡影，如露亦如电，应作如是观。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一片青山">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          货币的简单逻辑
+        </h1>
+
+        <div class="post-meta">
+
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2016-09-25 22:52:11" itemprop="dateCreated datePublished" datetime="2016-09-25T22:52:11+08:00">2016-09-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-03-29 17:31:14" itemprop="dateModified" datetime="2023-03-29T17:31:14+08:00">2023-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E4%BF%A1%E7%94%A8%E8%B4%A7%E5%B8%81/" itemprop="url" rel="index"><span itemprop="name">信用货币</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>为什么以前要用铜板白银黄金才能买的东西，现在印刷一张张花花绿绿的纸就可以？实际运行中会有什么不同？</p>
+<p>历史上，金银铜铁充当货币的前提条件是当时生产力低下，金银铜铁本身产量不大，具有一定的稀缺性，属于贵金属。而与此同时，生产力低下也导致实物数量的增长同样缓慢。这样贵金属和实物在数量上能够保持一种脆弱的平衡关系，金银铜铁就可以充当一般等价物，一般等价物这个概念本身也表明了彼此间的数量比例的意思。<span id="more"></span></p>
+<p>贵金属货币的内容是随生产力发展不断变迁的，比如历史上的金银铜铁可以充当货币，到今天就只有金银还可以充当贵金属货币了，可以在国际上交易，我们使用的硬币出了国界就不被认可了，金银铜铁货币使用的范围和在贸易体系的地位大大缩小了。生产力的发展，对贵金属货币和实物的影响是两方面的，一方面是金银产量的增长幅度追不上实物的增长幅度，另一方面是铜铁产量增长幅度太大本身变成普通金属，不具备贵金属的稀缺性，也难以从数量上确定和实物的比例关系。因此，生产力的发展，破坏了贵金属货币和实物间脆弱的比例关系，从而降低了贵金属货币在贸易体系的地位，从昔日的主角变成今日的配角。</p>
+<p>因为贵金属在跨时间和跨地域使用的不便利，催生了贵金属货币的兑换券，兑换券和贵金属脱钩就诞生了纸币，电子支付手段的兴起又将纸币电子化了，并派生出电子货币。</p>
+<p>贵金属充当货币是因为曾经其数量和实物能够维持一种脆弱的平衡关系，纸币除了方寸大小的纸和些微的油墨外，本身价值几乎可以忽略不计，理论上可以在面值上和数量上做到无限大。那么，如何保证纸币币值和实物的平衡关系呢？</p>
+<p>其实是没有办法的。我们使用纸币的原因一是我们相信，相信发行机构不会滥发；一是被强制，不使用纸币别无选择。因此下面将纸质货币和电子货币统称为信用货币</p>
+<p>使用贵金属货币有什么好处，有什么坏处？</p>
+<p>在相当长的一段历史时期里，生产力发展缓慢，贵金属产量增长也缓慢，所以使用贵金属货币第一个好处是货币难以滥发，币值相对稳定；而虽然生产力发展缓慢，但是实物的增长幅度经常是大于贵金属产量的（排除战乱灾荒），因此持有贵金属货币常常可以增值，就是贵金属货币的购买力在升值。</p>
+<p>贵金属货币难以滥发不等于不能滥发，实际上历史上经常有贵金属货币滥发的情形的。贵金属货币的币值通常就是贵金属的重量单位，如半两，一两，五铢等。贵金属货币滥发的一种手段是偷斤减两，这样滥发的货币和足值的货币在手里掂量一下就立马可以发现，再不行称量一下也就发现了；另一种滥发手段是就是虚化币值，比如当两、当十，更是明着告诉你货币不足值。滥发货币造成劣币取值良币，劣币不被认可和接受带来的就是社会生产的混乱直至中断。一次又一次历史血的教训告诉我们：滥发货币会引发社会动荡，民不聊生，经常伴随着改朝换代。</p>
+<p>使用贵金属货币的坏处，排除掉携带不方便、不便于大额交易、易偷易耗外，最大的坏处是贵金属的产量较小，不能匹配日益增长实物交易的需求。这就是一把双刃剑，对于个人来讲，贵金属购买力不断上升，而对于整个社会来讲，贵金属数量小于社会贸易需求时会严重制约社会经济的发展。而持有贵金属不动就可以享受贵金属购买力上升的好处导致更多的人持有货币，市场上可用于交易和再生产的货币更少，最终导致社会发展的停滞不前。而滥发货币危及社稷的恶劣后果是任何一个负责统治者的大忌。因此要获得贵金属货币的正当发行权，只有获得足够的贵金属才能达成。获取贵金属有对内和对外两个渠道：对内渠道主要是反佛教，销佛铸币，因为铸造佛像的材质主要就是铜；对外渠道主要是对外征战侵略，掠夺金银。因此，可以看出，历史上的反佛教运动和对外侵略战争，很重要一个动因就是获得货币的发行权。获得货币的发行权，其好处抛开社会贸易需求的宏大话题，对于统治者自身的好处也是不言而喻的。当然，好处有多大，诱惑就有多大。</p>
+<p>使用信用货币有什么好处和坏处？</p>
+<p>实际上，这还是一把双刃剑，信用货币的好处抛开使用的便利性外，最大的好处是数量上可以方便地调控以符合社会贸易的需求，特别是生产力日新月异的今天，实物商品数量呈几何级的增长，我们再也回不到贵金属货币的时代了。而带来的坏处就是，信用货币太容易滥发了，简单到只需要在键盘上轻轻点一下。信用货币的滥发具有极强的隐蔽性，你很难说这张纸币和另一张纸币有什么不一样，也很难分清你电子账户的一万元和另一个电子账户里的一万元有什么不同。</p>
+<p>在贵金属货币时代，是先感知到货币滥发而后感知到通货膨胀；而在信用货币时代，是感受到了通货膨胀而后才知道货币滥发了。简单来说就是，贵金属货币时代，先发现发行了大钱，而后引发通货膨胀；在信用货币时代，是通货膨胀到原来币值的货币不便于使用才发行大面值货币。</p>
+<p>信用货币滥发在不同的经济周期里面表现也不一样，下面用几个极其简单的例子说明：</p>
+<p>一个与世隔绝的小岛上，有5个人，每个人有30元钱纸币。岛上第一年产了5个西瓜，那么每个西瓜对应30元，30*5&#x2F;5，30元一个西瓜，每个人都能吃到1个西瓜。</p>
+<p>第二年，假设雨水比较好，肥料施得比较足，岛上产了6个西瓜（经济上行期），还是只有5个人，每个人还是只有30元，30*5&#x2F;6&#x3D;25，就变成了25元一个西瓜了，每个人可以吃到6&#x2F;5&#x3D;1.2个西瓜，这样每个人都吃到比以往更多的西瓜（享受经济上行期生产力提高和生产效率提高的好处）；</p>
+<p>第三年，假设岛上又产了6个西瓜，还是只有5个人，每个人还是只有30元，但是其中一个人掌握了货币发行权，乘机发行了30元钱，30*6&#x2F;6&#x3D;30元，西瓜还是30元一个，这样其他4个人每人可以吃到1个西瓜，而掌握货币发行权的人可以吃到2个西瓜（独享经济上行期生产力提高和生产效率提高的好处），而其他4个人感觉和第一年一样，差异不大；</p>
+<p>第四年，假设岛上欠收，只产了4个西瓜（经济下行期），还是只有5个人，其中4个人每个人还是只有30元，掌握了货币发行权的人有60元，30<em>6&#x2F;4&#x3D;45元，西瓜变成45元一个，那么四个人每人只能吃到0.67个西瓜，发行货币的人可以吃到1.33个西瓜；但是掌握了货币发行权的人发现随便发行30元纸币就可以兑现实实在在的好处（西瓜），于是他又发行了30元纸币到岛上，西瓜价格就变成了30</em>7&#x2F;4&#x3D;52.5元一个了，这样其他四个人每人只能吃到0.57个西瓜（通货膨胀太明显了），而掌握了货币发行权的人可以吃到1.71个西瓜，这样引发了其他4个人的强烈不满，激烈对抗掌握了货币发行权的人，纷纷表示不再接受岛上现有发行的货币，小岛陷入混乱。</p>
+<p>由此可见，在经济上行期超发货币，经济体量的扩大可以有效吸收超发的货币，物价波动不大，通货膨胀不明显；而在经济下行期超发货币，极容易引发通货剧烈膨胀，造成社会的不满。</p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>何处是
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://hechushi.com/2016/09/25/%E8%B4%A7%E5%B8%81%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91/" title="货币的简单逻辑">http://hechushi.com/2016/09/25/货币的简单逻辑/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%B4%A7%E5%B8%81/" rel="tag"># 货币</a>
+              <a href="/tags/%E4%BF%A1%E7%94%A8%EF%BC%8C%E9%80%BB%E8%BE%91/" rel="tag"># 信用，逻辑</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2015/10/07/TPP%E5%AF%B9%E4%B8%AD%E5%9B%BD%E7%9A%84%E6%B7%B1%E8%BF%9C%E5%BD%B1%E5%93%8D%EF%BC%9A%E9%A2%84%E6%9C%9F%E5%B7%B2%E7%AB%8B%EF%BC%8C%E5%8A%BF%E5%9C%A8%E5%BF%85%E8%A1%8C%E3%80%82/" rel="prev" title="TPP对中国的深远影响：预期已立，势在必行。">
+      <i class="fa fa-chevron-left"></i> TPP对中国的深远影响：预期已立，势在必行。
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2016/09/30/%E4%BF%A1%E7%94%A8%E8%B4%A7%E5%B8%81%EF%BC%9A%E8%87%B4%E5%91%BD%E7%9A%84%E8%AF%B1%E6%83%91/" rel="next" title="信用货币：致命的诱惑">
+      信用货币：致命的诱惑 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="何处是"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">何处是</p>
+  <div class="site-description" itemprop="description">《金刚经》云：一切有为法，如梦幻泡影，如露亦如电，应作如是观。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">28</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; Fri Mar 24 2023 08:00:00 GMT+0800 (中国标准时间) – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">何处是</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共48.3k字</span>
+</div>
+
+
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">总访客数<span id="busuanzi_value_site_uv"></span>人</span>
+    <span class="post-meta-divider">|</span>
+<!-- 不蒜子计数初始值纠正 -->
+<script>
+$(document).ready(function() {
+
+    var int = setInterval(fixCount, 50);  // 50ms周期检测函数
+    var countOffset = 20000;  // 初始化首次数据
+
+    function fixCount() {            
+       if (document.getElementById("busuanzi_container_site_pv").style.display != "none")
+        {
+            $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + countOffset); 
+            clearInterval(int);
+        }                  
+        if ($("#busuanzi_container_site_pv").css("display") != "none")
+        {
+            $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + countOffset); // 加上初始数据 
+            clearInterval(int); // 停止检测
+        }  
+    }
+       	
+});
+</script> 
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+    <script defer src="/lib/three/canvas_sphere.min.js"></script>
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
